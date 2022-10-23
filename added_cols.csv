@@ -174,235 +174,235 @@ Cyndaquil,Fire,S
 Totodile,Water,D
 Totodile,Water,C
 ,Water,S
-,Normal,F
-,Normal,C
-,Normal Flying,E
-,Normal Flying,B
-,Flying Bug,E
-,Flying Bug,C
-,Poison Bug,E
-,Poison Bug,C
-,Poison Flying,S
-,Water Electric,D
-,Water Electric,B
-,Electric,F
-,Fairy,F
-,Normal Fairy,F
-,Fairy,F
-,Flying Fairy,C
-,Psychic Flying,D
-,Psychic Flying,B
-,Electric,E
-,Electric,C
-,Electric,A
-,Electric Dragon,S
-,Grass,A
-,Water Fairy,E
-,Water Fairy,B
-,Rock,C
-,Water,A
-,Grass Flying,E
-,Grass Flying,D
-,Grass Flying,B
-,Normal,C
-,Grass,F
-,Grass,B
-,Flying Bug,C
-,Water Ground,F
-,Water Ground,B
-,Psychic,S
-,Dark,S
+Furret,Normal,F
+Furret,Normal,C
+Hoothoot,Normal Flying,E
+Hoothoot,Normal Flying,B
+Ledyba,Flying Bug,E
+Ledyba,Flying Bug,C
+Spinarak,Poison Bug,E
+Spinarak,Poison Bug,C
+Zubat,Poison Flying,S
+Chinchou,Water Electric,D
+Chinchou,Water Electric,B
+Pichu,Electric,F
+Cleffa,Fairy,F
+Igglybuff,Normal Fairy,F
+Togepi,Fairy,F
+Togepi,Flying Fairy,C
+Natu,Psychic Flying,D
+Natu,Psychic Flying,B
+Mareep,Electric,E
+Mareep,Electric,C
+Mareep,Electric,A
+Mareep,Electric Dragon,S
+Oddish,Grass,A
+Azurill,Water Fairy,E
+Azurill,Water Fairy,B
+Sudowoodo,Rock,C
+Poliwag,Water,A
+Hoppip,Grass Flying,E
+Hoppip,Grass Flying,D
+Hoppip,Grass Flying,B
+Aipom,Normal,C
+Sunkern,Grass,F
+Sunkern,Grass,B
+Yanma,Flying Bug,C
+Wooper,Water Ground,F
+Wooper,Water Ground,B
+Eevee,Psychic,S
+Eevee,Dark,S
 ,Flying Dark,C
-,Water Psychic,A
-,Ghost,B
-,Psychic,D
-,Psychic,C
-,Psychic Normal,B
-,Bug,E
-,Steel Bug,B
-,Normal,C
-,Ground Flying,B
-,Steel Ground,A
-,Steel Ground,S
-,Fairy,D
-,Fairy,B
-,Water Poison,B
-,Steel Bug,A
-,Steel Bug,S
-,Rock Bug,A
-,Fighting Bug,A
-,Fighting Bug,S
-,Ice Dark,B
-,Normal,D
-,Normal,A
-,Fire,E
-,Rock Fire,C
-,Ice Ground,E
-,Ice Ground,B
-,Water Rock,C
-,Water,D
-,Water,A
-,Ice Flying,D
-,Water Flying,B
-,Steel Flying,B
-,Fire Dark,D
-,Fire Dark,A
-,Fire Dark,S
-,Water Dragon,S
-,Ground,D
-,Ground,A
-,Normal,A
-,Normal,B
-,Normal,E
-,Fighting,F
-,Fighting,B
-,Psychic Ice,D
-,Electric,C
-,Fire,C
-,Normal,A
-,Normal,S
-,Electric,S
-,Fire,S
-,Water,S
-,Rock Ground,D
-,Rock Ground,C
-,Rock Dark,S
-,Rock Dark,SS
-,Psychic Flying,SS
-,Flying Fire,SS
-,Psychic Grass,S
-,Grass,D
-,Grass,C
-,Grass,S
-,Grass Dragon,SS
-,Fire,D
-,Fire Fighting,C
-,Fire Fighting,S
-,Fire Fighting,SS
-,Water,D
-,Water Ground,C
-,Water Ground,S
-,Water Ground,SS
-,Dark,F
-,Dark,B
-,Normal,F
-,Normal,B
-,Bug,F
-,Bug,F
-,Flying Bug,C
-,Bug,F
-,Poison Bug,C
-,Water Grass,F
-,Water Grass,D
-,Water Grass,A
-,Grass,F
-,Grass Dark,D
-,Grass Dark,A
-,Normal Flying,E
-,Normal Flying,B
-,Water Flying,E
-,Water Flying,B
-,Psychic Fairy,F
-,Psychic Fairy,E
-,Psychic Fairy,A
-,Psychic Fairy,S
-,Water Bug,E
-,Flying Bug,C
-,Grass,E
-,Grass Fighting,B
-,Normal,E
-,Normal,B
-,Normal,SS
-,Ground Bug,E
-,Flying Bug,B
-,Ghost Bug,F
-,Normal,F
-,Normal,C
-,Normal,A
-,Fighting,F
-,Fighting,B
-,Normal Fairy,F
-,Rock,C
-,Normal,E
-,Normal,C
-,Ghost Dark,C
-,Ghost Dark,A
-,Steel Fairy,C
-,Steel Fairy,A
-,Steel Rock,D
-,Steel Rock,B
-,Steel Rock,S
-,Steel,SS
-,Psychic Fighting,E
-,Psychic Fighting,C
-,Psychic Fighting,A
-,Electric,E
-,Electric,B
-,Electric,S
-,Electric,C
-,Electric,C
-,Bug,C
-,Bug,C
-,Poison Grass,C
-,Poison,D
-,Poison,B
-,Water Dark,D
-,Water Dark,B
-,Water Dark,S
-,Water,C
-,Water,A
-,Ground Fire,D
-,Ground Fire,B
-,Ground Fire,S
-,Fire,B
-,Psychic,D
-,Psychic,B
-,Normal,C
-,Ground,E
-,Ground Dragon,D
-,Ground Dragon,A
-,Grass,D
-,Grass Dark,B
-,Normal Flying,D
-,Flying Dragon,A
-,Fairy Dragon,S
-,Normal,B
-,Poison,B
-,Rock Psychic,B
-,Rock Psychic,B
-,Water Ground,E
-,Water Ground,B
-,Water,D
-,Water Dark,B
-,Psychic Ground,D
-,Psychic Ground,A
-,Rock Grass,C
-,Rock Grass,A
-,Rock Bug,C
-,Rock Bug,A
-,Water,F
-,Water,S
-,Normal,B
-,Normal,B
-,Ghost,E
-,Ghost,B
-,Ghost,S
-,Ghost,E
-,Ghost,B
-,Grass Flying,B
-,Psychic,B
-,Dark,B
-,Dark,S
-,Psychic,E
-,Ice,D
-,Ice,A
-,Ice,S
-,Water Ice,E
-,Water Ice,C
-,Water Ice,S
-,Water,D
-,Water,A
-,Water,A
+Slowpoke,Water Psychic,A
+Misdreavus,Ghost,B
+Unown,Psychic,D
+Wynaut,Psychic,C
+Girafarig,Psychic Normal,B
+Pineco,Bug,E
+Pineco,Steel Bug,B
+Dunsparce,Normal,C
+Gligar,Ground Flying,B
+Steelix,Steel Ground,A
+Steelix,Steel Ground,S
+Snubbull,Fairy,D
+Snubbull,Fairy,B
+Qwilfish,Water Poison,B
+Scizor,Steel Bug,A
+Scizor,Steel Bug,S
+Shuckle,Rock Bug,A
+Heracross,Fighting Bug,A
+Heracross,Fighting Bug,S
+Sneasel,Ice Dark,B
+Teddiursa,Normal,D
+Teddiursa,Normal,A
+Slugma,Fire,E
+Slugma,Rock Fire,C
+Swinub,Ice Ground,E
+Swinub,Ice Ground,B
+Corsola,Water Rock,C
+Remoraid,Water,D
+Remoraid,Water,A
+Delibird,Ice Flying,D
+Mantine,Water Flying,B
+Skarmory,Steel Flying,B
+Houndour,Fire Dark,D
+Houndour,Fire Dark,A
+Houndour,Fire Dark,S
+Horsea,Water Dragon,S
+Phanpy,Ground,D
+Phanpy,Ground,A
+Porygon,Normal,A
+Stantler,Normal,B
+Smeargle,Normal,E
+Tyrogue,Fighting,F
+Tyrogue,Fighting,B
+Smoochum,Psychic Ice,D
+Elekid,Electric,C
+Magby,Fire,C
+Miltank,Normal,A
+Happiny,Normal,S
+Raikou,Electric,S
+Entei,Fire,S
+Suicune,Water,S
+Larvitar,Rock Ground,D
+Larvitar,Rock Ground,C
+Larvitar,Rock Dark,S
+Larvitar,Rock Dark,SS
+Lugia,Psychic Flying,SS
+Ho-oh,Flying Fire,SS
+Celebi,Psychic Grass,S
+Treecko,Grass,D
+Treecko,Grass,C
+Treecko,Grass,S
+Treecko,Grass Dragon,SS
+Torchic,Fire,D
+Torchic,Fire Fighting,C
+Torchic,Fire Fighting,S
+Torchic,Fire Fighting,SS
+Mudkip,Water,D
+Mudkip,Water Ground,C
+Mudkip,Water Ground,S
+Mudkip,Water Ground,SS
+Poochyena,Dark,F
+Poochyena,Dark,B
+Zigzagoon,Normal,F
+Zigzagoon,Normal,B
+Wurple,Bug,F
+Wurple,Bug,F
+Wurple,Flying Bug,C
+Wurple,Bug,F
+Wurple,Poison Bug,C
+Lotad,Water Grass,F
+Lotad,Water Grass,D
+Lotad,Water Grass,A
+Seedot,Grass,F
+Seedot,Grass Dark,D
+Seedot,Grass Dark,A
+Taillow,Normal Flying,E
+Taillow,Normal Flying,B
+Wingull,Water Flying,E
+Wingull,Water Flying,B
+Ralts,Psychic Fairy,F
+Ralts,Psychic Fairy,E
+Ralts,Psychic Fairy,A
+Ralts,Psychic Fairy,S
+Surskit,Water Bug,E
+Surskit,Flying Bug,C
+Shroomish,Grass,E
+Shroomish,Grass Fighting,B
+Slakoth,Normal,E
+Slakoth,Normal,B
+Slakoth,Normal,SS
+nincada,Ground Bug,E
+nincada,Flying Bug,B
+nincada,Ghost Bug,F
+Whismur,Normal,F
+Whismur,Normal,C
+Whismur,Normal,A
+Makuhita,Fighting,F
+Makuhita,Fighting,B
+Azurill,Normal Fairy,F
+Nosepass,Rock,C
+Skitty,Normal,E
+Skitty,Normal,C
+Sableye,Ghost Dark,C
+Sableye,Ghost Dark,A
+Mawile,Steel Fairy,C
+Mawile,Steel Fairy,A
+Aron,Steel Rock,D
+Aron,Steel Rock,B
+Aron,Steel Rock,S
+Aron,Steel,SS
+Meditite,Psychic Fighting,E
+Meditite,Psychic Fighting,C
+Meditite,Psychic Fighting,A
+Electrike,Electric,E
+Electrike,Electric,B
+Electrike,Electric,S
+Plusle,Electric,C
+Minun,Electric,C
+Volbeat,Bug,C
+Illumise,Bug,C
+Budew,Poison Grass,C
+Gulpin,Poison,D
+Gulpin,Poison,B
+Carvanha,Water Dark,D
+Carvanha,Water Dark,B
+Carvanha,Water Dark,S
+Wailmer,Water,C
+Wailmer,Water,A
+Numel,Ground Fire,D
+Numel,Ground Fire,B
+Numel,Ground Fire,S
+Torkoal,Fire,B
+Spoink,Psychic,D
+Spoink,Psychic,B
+Spinda,Normal,C
+Trapinch,Ground,E
+Trapinch,Ground Dragon,D
+Trapinch,Ground Dragon,A
+Cacnea,Grass,D
+Cacnea,Grass Dark,B
+Swablu,Normal Flying,D
+Swablu,Flying Dragon,A
+Swablu,Fairy Dragon,S
+Zangoose,Normal,B
+Seviper,Poison,B
+Lunatone,Rock Psychic,B
+Solrock,Rock Psychic,B
+Barboach,Water Ground,E
+Barboach,Water Ground,B
+Corphish,Water,D
+Corphish,Water Dark,B
+Baltoy,Psychic Ground,D
+Baltoy,Psychic Ground,A
+Lileep,Rock Grass,C
+Lileep,Rock Grass,A
+Anorith,Rock Bug,C
+Anorith,Rock Bug,A
+Feebas,Water,F
+Feebas,Water,S
+Castform,Normal,B
+Kecleon,Normal,B
+Shuppet,Ghost,E
+Shuppet,Ghost,B
+Shuppet,Ghost,S
+Duskull,Ghost,E
+Duskull,Ghost,B
+Tropius,Grass Flying,B
+Chimecho,Psychic,B
+Absol,Dark,B
+Absol,Dark,S
+Wynaut,Psychic,E
+Snorunt,Ice,D
+Snorunt,Ice,A
+Snorunt,Ice,S
+Spheal,Water Ice,E
+Spheal,Water Ice,C
+Spheal,Water Ice,S
+Clamperl,Water,D
+Clamperl,Water,A
+Clamperl,Water,A
 ,Water Rock,A
 ,Water,D
 ,Dragon,D

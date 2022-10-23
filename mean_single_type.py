@@ -1,6 +1,6 @@
 import pandas as pd
 '''
-Aqui a média entre os tipos, um pokemon do tipo grass e poison
+Aqui a média entre os tipos, dado um pokemon do tipo grass e poison
 vai ser considerado tanto para o tipo grass, quanto para o poison
 '''
 
