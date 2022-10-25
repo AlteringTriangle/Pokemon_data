@@ -3,5 +3,5 @@ from Pokemon.removing_mega_and_forms import wmfMask
 
 df = pd.read_csv('pokemon.csv')
 
-search = df.loc[420:430]
+search = df.set_index('Name').loc['Spinarak']
 print(search)

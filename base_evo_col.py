@@ -17,7 +17,10 @@ def between(first, last=0):
 
 bt = between
 
-# df.loc[bt(, ), 'Base Form'] = ''
+
+
+
+
 
 # First generation
 df.loc[bt(1, 3), 'Base Form'] = 'Bulbasaur'
@@ -91,13 +94,9 @@ df.loc[bt(137, 137), 'Base Form'] = 'Porygon'
 df.loc[bt(138, 139), 'Base Form'] = 'Omanyte'
 df.loc[bt(140, 141), 'Base Form'] = 'Kabuto'
 df.loc[bt(142, 142), 'Base Form'] = 'Aerodactyl'
-df.loc[bt(143, 143), 'Base Form'] = 'Snorlax'
-df.loc[bt(144, 144), 'Base Form'] = 'Articuno'
-df.loc[bt(145, 145), 'Base Form'] = 'Zapdos'
-df.loc[bt(146, 146), 'Base Form'] = 'Moltres'
+df.loc[bt(143, 143), 'Base Form'] = 'Munchlax'
 df.loc[bt(147, 149), 'Base Form'] = 'Dratini'
-df.loc[bt(150, 150), 'Base Form'] = 'Mewtwo'
-df.loc[bt(151, 151), 'Base Form'] = 'Mew'
+
 
 # Second Generation
 df.loc[bt(152, 154), 'Base Form'] = 'Chikorita'
@@ -117,7 +116,7 @@ df.loc[bt(177, 178), 'Base Form'] = 'Natu'
 df.loc[bt(179, 181), 'Base Form'] = 'Mareep'
 df.loc[bt(182, 182), 'Base Form'] = 'Oddish'
 df.loc[bt(183, 184), 'Base Form'] = 'Azurill'
-df.loc[bt(185, 185), 'Base Form'] = 'Sudowoodo'
+df.loc[bt(185, 185), 'Base Form'] = 'Bonsly'
 df.loc[bt(186, 186), 'Base Form'] = 'Poliwag'
 df.loc[bt(187, 189), 'Base Form'] = 'Hoppip'
 df.loc[bt(190, 190), 'Base Form'] = 'Aipom'
@@ -146,7 +145,7 @@ df.loc[bt(220, 221), 'Base Form'] = 'Swinub'
 df.loc[bt(222, 222), 'Base Form'] = 'Corsola'
 df.loc[bt(223, 224), 'Base Form'] = 'Remoraid'
 df.loc[bt(225, 225), 'Base Form'] = 'Delibird'
-df.loc[bt(226, 226), 'Base Form'] = 'Mantine'
+df.loc[bt(226, 226), 'Base Form'] = 'Mantyke'
 df.loc[bt(227, 227), 'Base Form'] = 'Skarmory'
 df.loc[bt(228, 229), 'Base Form'] = 'Houndour'
 df.loc[bt(230, 230), 'Base Form'] = 'Horsea'
@@ -161,13 +160,7 @@ df.loc[bt(239, 239), 'Base Form'] = 'Elekid'
 df.loc[bt(240, 240), 'Base Form'] = 'Magby'
 df.loc[bt(241, 241), 'Base Form'] = 'Miltank'
 df.loc[bt(242, 242), 'Base Form'] = 'Happiny'
-df.loc[bt(243, 243), 'Base Form'] = 'Raikou'
-df.loc[bt(244, 244), 'Base Form'] = 'Entei'
-df.loc[bt(245, 245), 'Base Form'] = 'Suicune'
 df.loc[bt(246, 248), 'Base Form'] = 'Larvitar'
-df.loc[bt(249, 249), 'Base Form'] = 'Lugia'
-df.loc[bt(250, 250), 'Base Form'] = 'Ho-oh'
-df.loc[bt(251, 251), 'Base Form'] = 'Celebi'
 
 
 # Third Generation
@@ -233,8 +226,87 @@ df.loc[bt(360), 'Base Form'] = 'Wynaut'
 df.loc[bt(361, 362), 'Base Form'] = 'Snorunt'
 df.loc[bt(363, 365), 'Base Form'] = 'Spheal'
 df.loc[bt(366, 368), 'Base Form'] = 'Clamperl'
+df.loc[bt(369), 'Base Form'] = 'Relicanth'
+df.loc[bt(370), 'Base Form'] = 'Luvdisc'
+df.loc[bt(371, 373), 'Base Form'] = 'Bagon'
+df.loc[bt(374, 376), 'Base Form'] = 'Beldum'
 
 
+# Forth Generation
+
+df.loc[bt(387, 389), 'Base Form'] = 'Turtwig'
+df.loc[bt(390, 392), 'Base Form'] = 'Chimchar'
+df.loc[bt(393, 395), 'Base Form'] = 'Piplup'
+df.loc[bt(396, 398), 'Base Form'] = 'Starly'
+df.loc[bt(399, 400), 'Base Form'] = 'Bidoof'
+df.loc[bt(401, 401), 'Base Form'] = 'Kricketot'
+df.loc[bt(403, 405), 'Base Form'] = 'Shinx'
+df.loc[bt(406, 407), 'Base Form'] = 'Budew'
+df.loc[bt(408, 409), 'Base Form'] = 'Cranidos'
+df.loc[bt(410, 411), 'Base Form'] = 'Shieldon'
+df.loc[bt(412, 414), 'Base Form'] = 'Burmy'
+df.loc[bt(415, 416), 'Base Form'] = 'Combee'
+df.loc[bt(417), 'Base Form'] = 'Pachirisu'
+df.loc[bt(418, 419), 'Base Form'] = 'Buizel'
+df.loc[bt(420, 421), 'Base Form'] = 'Cherubi'
+df.loc[bt(422, 423), 'Base Form'] = 'Shellos'
+df.loc[bt(424), 'Base Form'] = 'Aipom'
+df.loc[bt(425, 426), 'Base Form'] = 'Drifloon'
+df.loc[bt(427, 428), 'Base Form'] = 'Buneary'
+df.loc[bt(429), 'Base Form'] = 'Misdreavus'
+df.loc[bt(430), 'Base Form'] = 'Murkrow'
+df.loc[bt(431, 432), 'Base Form'] = 'Glameow'
+df.loc[bt(433), 'Base Form'] = 'Chingling'
+df.loc[bt(434, 435), 'Base Form'] = 'Stunky'
+df.loc[bt(436, 437), 'Base Form'] = 'Bronzor'
+df.loc[bt(438), 'Base Form'] = 'Bonsly'
+df.loc[bt(439), 'Base Form'] = 'Mime Jr.'
+df.loc[bt(440), 'Base Form'] = 'Happiny'
+df.loc[bt(441), 'Base Form'] = 'Chatot'
+df.loc[bt(442), 'Base Form'] = 'Spiritomb'
+df.loc[bt(443, 445), 'Base Form'] = 'Gible'
+df.loc[bt(446), 'Base Form'] = 'Munchlax'
+df.loc[bt(447, 448), 'Base Form'] = 'Riolu'
+df.loc[bt(449, 450), 'Base Form'] = 'Hippopotas'
+df.loc[bt(451, 452), 'Base Form'] = 'Skorupi'
+df.loc[bt(453, 454), 'Base Form'] = 'Croagunk'
+df.loc[bt(455), 'Base Form'] = 'Carnivine'
+df.loc[bt(456, 457), 'Base Form'] = 'Finneon'
+df.loc[bt(458), 'Base Form'] = 'Mantyke'
+df.loc[bt(459, 460), 'Base Form'] = 'Snover'
+df.loc[bt(461), 'Base Form'] = 'Sneasel'
+df.loc[bt(462), 'Base Form'] = 'Magnemite'
+df.loc[bt(463), 'Base Form'] = 'Licktung'
+df.loc[bt(464), 'Base Form'] = 'Rhyhorn'
+df.loc[bt(465), 'Base Form'] = 'Tangela'
+df.loc[bt(466), 'Base Form'] = 'Elekid'
+df.loc[bt(467), 'Base Form'] = 'Magby'
+df.loc[bt(468), 'Base Form'] = 'Togepi'
+df.loc[bt(469), 'Base Form'] = 'Yanma'
+df.loc[bt(470, 471), 'Base Form'] = 'Eevee'
+df.loc[bt(472), 'Base Form'] = 'Gligar'
+df.loc[bt(473), 'Base Form'] = 'Swinub'
+df.loc[bt(474), 'Base Form'] = 'Porygon'
+df.loc[bt(475), 'Base Form'] = 'Ralts'
+df.loc[bt(476), 'Base Form'] = 'Nosepass'
+df.loc[bt(477), 'Base Form'] = 'Duskull'
+df.loc[bt(478), 'Base Form'] = 'Snorunt'
+
+# Fifth Generation
+df.loc[bt(495, 497), 'Base Form'] = 'Snivy'
+df.loc[bt(498, 500), 'Base Form'] = 'Tepig'
+df.loc[bt(501, 503), 'Base Form'] = 'Oshawott'
+
+
+# df.loc[bt(, ), 'Base Form'] = ''
+
+# legendaries doesn't evolve
+a = df.loc[df['Legendary'] == True].copy()
+a['Base Form'] = a['Name']
+df.loc.__setitem__((a['Name'].index, 'Base Form'), a['Base Form'])
+
+print(df.head(50))
+exit()
 
 ac = pd.read_csv('added_cols.csv')
 

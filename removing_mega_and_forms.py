@@ -5,7 +5,8 @@ from removing_mega import raw as mask2
 
 
 df = pd.read_csv('pokemon.csv')
-df = df.loc[mask2 & mask1]
+raw = mask1 & mask2
+df = df.loc[raw]
 df = pd.concat([df, exception])
 df.sort_index(inplace=True)
 wmfMask = df.index

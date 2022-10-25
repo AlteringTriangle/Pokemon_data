@@ -162,9 +162,9 @@ Dratini,Dragon,D
 Dratini,Dragon,B
 Dratini,Flying Dragon,S
 Mewtwo,Psychic,SS
-Mewtwo,Psychic Fighting,SS
-Mewtwo,Psychic,SS
-Mew,Psychic,S
+MewtwoMega Mewtwo X,Psychic Fighting,SS
+MewtwoMega Mewtwo Y,Psychic,SS
+,Psychic,S
 Chikorita,Grass,D
 Chikorita,Grass,C
 Chikorita,Grass,S
@@ -270,7 +270,7 @@ Larvitar,Rock Dark,S
 Larvitar,Rock Dark,SS
 Lugia,Psychic Flying,SS
 Ho-oh,Flying Fire,SS
-Celebi,Psychic Grass,S
+,Psychic Grass,S
 Treecko,Grass,D
 Treecko,Grass,C
 Treecko,Grass,S
@@ -413,24 +413,24 @@ Clamperl,Water,A
 ,Steel Psychic,B
 ,Steel Psychic,S
 ,Steel Psychic,SS
-,Rock,S
-,Ice,S
-,Steel,S
-,Psychic Dragon,S
-,Psychic Dragon,SS
-,Psychic Dragon,S
-,Psychic Dragon,SS
-,Water,SS
-,Water,SS
-,Ground,SS
-,Ground Fire,SS
-,Flying Dragon,SS
-,Flying Dragon,SS
-,Steel Psychic,S
-,Psychic,S
-,Psychic,S
-,Psychic,S
-,Psychic,S
+Regirock,Rock,S
+Regice,Ice,S
+Registeel,Steel,S
+Latias,Psychic Dragon,S
+LatiasMega Latias,Psychic Dragon,SS
+Latios,Psychic Dragon,S
+LatiosMega Latios,Psychic Dragon,SS
+Kyogre,Water,SS
+KyogrePrimal Kyogre,Water,SS
+Groudon,Ground,SS
+GroudonPrimal Groudon,Ground Fire,SS
+Rayquaza,Flying Dragon,SS
+RayquazaMega Rayquaza,Flying Dragon,SS
+Jirachi,Steel Psychic,S
+DeoxysNormal Forme,Psychic,S
+DeoxysAttack Forme,Psychic,S
+DeoxysDefense Forme,Psychic,S
+DeoxysSpeed Forme,Psychic,S
 ,Grass,D
 ,Grass,C
 ,Ground Grass,S
@@ -536,23 +536,23 @@ Clamperl,Water,A
 ,Ice Electric,A
 ,Flying Electric,A
 ,Grass Electric,A
-,Psychic,S
-,Psychic,S
-,Psychic,S
-,Steel Dragon,SS
-,Water Dragon,SS
-,Steel Fire,S
-,Normal,SS
-,Ghost Dragon,SS
-,Ghost Dragon,SS
+Uxie,Psychic,S
+Mesprit,Psychic,S
+Azelf,Psychic,S
+Dialga,Steel Dragon,SS
+Palkia,Water Dragon,SS
+Heatran,Steel Fire,S
+Regigigas,Normal,SS
+GiratinaAltered Forme,Ghost Dragon,SS
+GiratinaOrigin Forme,Ghost Dragon,SS
 ,Psychic,S
 ,Water,A
 ,Water,S
-,Dark,S
-,Grass,S
-,Grass Flying,S
-,Normal,SS
-,Psychic Fire,S
+Darkrai,Dark,S
+ShayminLand Forme,Grass,S
+ShayminSky Forme,Grass Flying,S
+Arceus,Normal,SS
+Victini,Psychic Fire,S
 ,Grass,D
 ,Grass,C
 ,Grass,S
@@ -698,20 +698,20 @@ Clamperl,Water,A
 ,Dragon Dark,S
 ,Fire Bug,C
 ,Fire Bug,S
-,Steel Fighting,S
-,Rock Fighting,S
-,Grass Fighting,S
-,Flying,S
-,Flying,S
-,Flying Electric,S
-,Flying Electric,S
-,Fire Dragon,SS
-,Electric Dragon,SS
-,Ground Flying,S
-,Ground Flying,S
-,Ice Dragon,SS
-,Ice Dragon,SS
-,Ice Dragon,SS
+Cobalion,Steel Fighting,S
+Terrakion,Rock Fighting,S
+Virizion,Grass Fighting,S
+TornadusIncarnate Forme,Flying,S
+TornadusTherian Forme,Flying,S
+ThundurusIncarnate Forme,Flying Electric,S
+ThundurusTherian Forme,Flying Electric,S
+Reshiram,Fire Dragon,SS
+Zekrom,Electric Dragon,SS
+LandorusIncarnate Forme,Ground Flying,S
+LandorusTherian Forme,Ground Flying,S
+Kyurem,Ice Dragon,SS
+KyuremBlack Kyurem,Ice Dragon,SS
+KyuremWhite Kyurem,Ice Dragon,SS
 ,Water Fighting,S
 ,Water Fighting,S
 ,Psychic Normal,S
@@ -791,11 +791,11 @@ Clamperl,Water,A
 ,Ice,A
 ,Flying Dragon,F
 ,Flying Dragon,S
-,Fairy,SS
-,Flying Dark,SS
-,Ground Dragon,S
-,Rock Fairy,S
-,Rock Fairy,SS
-,Psychic Ghost,S
-,Psychic Dark,SS
-,Water Fire,S
+Xerneas,Fairy,SS
+Yveltal,Flying Dark,SS
+Zygarde50% Forme,Ground Dragon,S
+Diancie,Rock Fairy,S
+DiancieMega Diancie,Rock Fairy,SS
+HoopaHoopa Confined,Psychic Ghost,S
+HoopaHoopa Unbound,Psychic Dark,SS
+Volcanion,Water Fire,S
