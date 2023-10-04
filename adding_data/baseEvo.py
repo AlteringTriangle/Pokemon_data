@@ -2,24 +2,37 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from Pokemon.dataPath import datapath
 
 # base form será a primeira evolução do pokemon
 # idependente de ser uma baby form de uma geração futura
 
-df = pd.read_csv('C:\\Users\\guilh\\Desktop\\Programação\\Pokemon\\pokemon.csv')
 
-# INCLUDING END
+# parte 1 - Carregando os dados
+df = pd.read_csv(datapath)
 
 
+# parte 2 - Definindo uma função para facilitar a inserção de dados
 def between(first, last=0):
     if last == 0:
+        '''
+            Se [last] não for passado como argumento, ele receberá o valor do primeiro
+            Na prática, isso faz com que apenas a linha do first seja selecionado, e mesmo
+            se o pokemon tiver múltiplas formas mas nenhuma evolução, como sableye e mawile
+            ambas as linhas são selecionadas.
+        '''
         last = first
+    # extrair de da coluna # os valores da coluna # que são maiores que [first] e menores que [last]
+    # e retornar seu indice
     return df['#'].loc[((df['#'] >= first) & (df['#'] <= last))].index
-
 
 bt = between
 
+# parte 3 - Inserindo os dados, um a um pois não há uma maneira confiável de determinar uma evolução
+# a partir dos dados, e procurar exeções em uma base de dados grande é menos confiável ainda
 # First generation
+# Em df, localize as linhas onde a coluna # tem numeração 1 a 3, e a coluna base form em si
+# localizado esta posição, escreva bulbasaur nos correspondentes
 df.loc[bt(1, 3), 'Base Form'] = 'Bulbasaur'
 df.loc[bt(4, 6), 'Base Form'] = 'Charmander'
 df.loc[bt(7, 9), 'Base Form'] = 'Squirtle'
@@ -405,17 +418,34 @@ df.loc[bt(714, 715), 'Base Form'] = 'Noibat'
 
 # df.loc[bt(, ), 'Base Form'] = ''
 
-# legendaries doesn't evolve
+# pokemons lendários não evoluem, portanto sua forma base é ele próprio
+# extraia para [a] o dataframe [df] do qual a coluna Legendary é igual a true
+# a cópia evita que ao mudar informações em [a] não se propaguem para o dataframe
+# original, desnecessário neste caso, mas eu queria ter um exemplo de __setitem__
 a = df.loc[df['Legendary'] == True].copy()
+# na coluna 'base form' escreva exatamente o que estiver na mesma linha da coluna 'name'
 a['Base Form'] = a['Name']
+# atribua a coluna [a['Base Form']] as linhas [a['Name'].index] e colunas ['Base Form']
 df.loc.__setitem__((a['Name'].index, 'Base Form'), a['Base Form'])
 
+
+# parte 5 - Pequena prévia da nova base de dados
 print(df.head(50))
 
 
+# parte 6 - Salvando os dados
 if __name__ == '__main__':
+    '''
+        __name__ == '__main__' evita que os dados sejam salvos caso este código seja
+        executado implicitamente como um import de outro
+    '''
+    # verificação final para permitir que os dados sejam salvos
     save = input('save?')
+
     if save == 'save':
+        # salva no arquivo de colunas adiciona, isto é, primeiro carrega os dados
         ac = pd.read_csv('C:\\Users\\guilh\\Desktop\\Programação\\Pokemon\\added_cols.csv')
+        # cria, se necessário, uma nova coluna baseada nas novas informações
         ac['Base Form'] = df['Base Form']
+        # salva no arquivo de colunas adicionais
         ac.to_csv('C:\\Users\\guilh\\Desktop\\Programação\\Pokemon\\added_cols.csv', index=False)

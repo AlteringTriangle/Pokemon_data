@@ -1,5 +1,7 @@
 import pandas as pd
-df = pd.read_csv('C:\\Users\\guilh\\Desktop\\Programação\\Pokemon\\pokemon.csv')
+from Pokemon.dataPath import datapath
+
+df = pd.read_csv(datapath)
 
 raw = ~df['Name'].str.contains('Forme|Unbound| Size| Kyurem|Zen Mode|'
                                ' Rotom|Sandy Cloak|Trash Cloark|Primal')

@@ -1,5 +1,7 @@
 import pandas as pd
+from Pokemon.dataPath import datapath
 
-df = pd.read_csv('C:\\Users\\guilh\\Desktop\\Programação\\Pokemon\\pokemon.csv')
+df = pd.read_csv(datapath)
 
+# apenas uma vizualização dos dados sendo utilizados
 print(df)

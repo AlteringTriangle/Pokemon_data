@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
+from Pokemon.dataPath import datapath
 
-df = pd.read_csv('C:\\Users\\guilh\\Desktop\\Programação\\Pokemon\\pokemon.csv')
+df = pd.read_csv(datapath)
 col_sel = ['Name', 'Type 1', 'Type 2', 'HP', 'Attack', 'Defense', 'Sp. Atk', 'Sp. Def', 'Speed', 'Total']
 df = df[col_sel].set_index('Name')
 
@@ -45,7 +46,5 @@ def sta_cal(name, iv=..., ev=252, level=100, nature=...):
 # nature buff = 1.1, nature debuff =0.9, normal=1, for ['Attack', 'Defense', 'Sp. Atk', 'Sp. Def', 'Speed']
 
 
-print(sta_cal('Zekrom', level=100, iv=[31], ev=252))
-print(sta_cal('Reshiram', level=100, iv=[31], ev=252))
-print(sta_cal('Kyurem', level=100, iv=[31], ev=252))
-print(sta_cal('Haxorus', level=99, iv=[23, 20, 31, 31, 30, 29], ev=252, nature=[1, 1, .9, 1, 1.1]))
+print(sta_cal('MewtwoMega Mewtwo Y', level=113, iv=[31], ev=252))
+print(sta_cal('Accelgor', level=100, iv=[31], ev=252))
